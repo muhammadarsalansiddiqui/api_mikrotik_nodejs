@@ -6,7 +6,7 @@ var MikroNode = require('mikronode');
 router.get('/', function(req, res, next) {
 
 
-var connection = new MikroNode('192.168.10.1','admin','1130668439/*/*');
+var connection = new MikroNode('192.168.10.1','admin','pass');
 connection.connect(function(conn) {
 
    var chan=conn.openChannel();
